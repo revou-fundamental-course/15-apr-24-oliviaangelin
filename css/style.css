@@ -1,1 +1,22 @@
 /* ini file css */
+
+main {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.main-title {
+    text-align: center;
+}
+
+.main-introduction {
+    background-color: aliceblue;
+    padding: 16px;
+    border-radius: 6px;
+}
+
+header {
+    padding-top: 10px;
+}
