@@ -1,22 +1,58 @@
-/* ini file css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+h2 {
+    font-size: 120%;
+  }
 
-main {
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 64px;
-    padding-bottom: 64px;
+img {
+    width: 30px;
+    margin-top: 5%;
+    vertical-align: middle;
 }
 
-.main-title {
+  .converter {
     text-align: center;
-}
-
-.main-introduction {
-    background-color: aliceblue;
-    padding: 16px;
-    border-radius: 6px;
-}
-
-header {
+    background: #0306c5;
+    width: 330px;
+    height: 230px;
     padding-top: 10px;
-}
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .formula {
+    color: #000;
+  }
+
+  input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+
+  }
+  #tombol {
+    border-radius: 6px;
+    border: none;
+    margin-left: 10px;
+    height: 22px;
+
+
+  }
+
+  .formula {
+    margin-top: 40px;
+    font-style: italic;
+  }

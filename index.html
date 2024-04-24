@@ -1,40 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Temperature Converter</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <main>
-        <header class="main-title">
-            <h1>Temperature Converter by Olivia Angelin Lim</h1>
-        </header>
-
-        <!--Main Introduction-->
-    <section class="main-introduction">
-        <section>
-            <p>Masukan suhu derajat Celcius (&deg;C) ...</p>
-        </section>
-
-        <section>
-            <header>
-                <h3>Celcius (&deg;C)</h3>
-            </header>
-
-            <article>
-                <textarea></textarea>
-
-                <div>
-                    <button>Convert</button>
-                    <button>Reset</button>
-                    <button>Refresh</button>
-                </div>
-            </article>
-        </section>
-    </section>
-    </main>
-
+<div class="container">
+  <div class="converter">
+    <img src="assets/termometer.png">
+    <h2>Temperature Converter</h2>
+    <label for="celsius">Celsius:</label>
+    <input type="text" id="celsius" placeholder="Enter Celsius">
+    <br>
+    <label for="fahrenheit">Fahrenheit:</label>
+    <input type="text" id="fahrenheit" placeholder="Enter Fahrenheit">
+    <div class="buttons">
+      <button id="tombol" onclick="convertCelsiusToFahrenheit()">C to F</button>
+      <button id="tombol" onclick="convertFahrenheitToCelsius()">F to C</button>
+      <button id="tombol" onclick="reset()">Reset</button>
+      <button id="tombol" onclick="refresh()">Refresh</button>
+      <div id="formula" class="formula"></div> <!-- Element for displaying formula -->
+    </div>
+  </div>
+</div>
+  <script src="JS/script.js"></script>
 </body>
 </html>
