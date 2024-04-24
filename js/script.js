@@ -23,12 +23,12 @@ function convertCelsiusToFahrenheit() {
     location.reload();
   }
   
-  // Celsius ke Fahrenheit
+  // Celsius ke F
   function celsiusToFahrenheit(celsius) {
     return (celsius * 9/5) + 32;
   }
   
-  // Fahrenheit ke Celsius
+  // Fahrenheit ke C
   function fahrenheitToCelsius(fahrenheit) {
     return (fahrenheit - 32) * 5/9;
   }
